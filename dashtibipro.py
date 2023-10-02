@@ -54,6 +54,7 @@ def create_pie_chart(labels, values, title):
 
 # Crear la aplicación Dash
 app = dash.Dash(__name__)
+server=app.server
 
 # Diseño del dashboard
 app.layout = html.Div([
