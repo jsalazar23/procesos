@@ -3,7 +3,7 @@
 /opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
 /opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
 
-
+pip install dash
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
